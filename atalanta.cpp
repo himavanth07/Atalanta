@@ -197,7 +197,7 @@ double lfMemSize;
 int main(int argc, char *argv[]) //for windows
 {
 	register int i, j;
-	int iNoShuffle;
+	int iNoShuffle=0;
 	bool done = FALSE;
 	//int number;
 	int iMaxLevelAdd2 = 0;
